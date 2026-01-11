@@ -1,3 +1,11 @@
+// ==UserScript==
+// @name         Fake Mousemove
+// @version      1.0
+// @description  Goodbye away.
+// @match        *https://teams.microsoft.com.mcas.ms/*
+// @grant        none
+// ==/UserScript==
+
 (function() {
   'use strict';
   setInterval(() => {
