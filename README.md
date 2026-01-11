@@ -34,14 +34,6 @@ The script is intentionally simple, lightweight, and runs fully client-side.
 3. Paste the following script into Tampermonkey:
 
 ```js
-// ==UserScript==
-// @name         Fake Mousemove
-// @version      1.0
-// @description NoRompasLasBolasTeams
-// @match        *https://teams.microsoft.com.mcas.ms/*
-// @grant        none
-// ==/UserScript==
-
 (function() {
   'use strict';
   setInterval(() => {
