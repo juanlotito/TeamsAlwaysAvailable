@@ -1,11 +1,3 @@
-// ==UserScript==
-// @name         Fake Mousemove
-// @version      1.0
-// @description NoRompasLasBolasTeams
-// @match        *https://teams.microsoft.com.mcas.ms/*
-// @grant        none
-// ==/UserScript==
-
 (function() {
   'use strict';
   setInterval(() => {
